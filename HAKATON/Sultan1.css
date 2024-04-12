@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.container2{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.up{
+    background-color: purple;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.up_main_text{
+    margin-top: 6px;
+    color: orange;
+}
+
+.up p{
+    margin-top: 6px;
+}
+
+nav{
+    background-color: white;
+    color: white;
+    width: 100%;
+    height: 60px;
+
+}
+
+.nav_content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_btn{
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 2px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    margin-left: 20px;
+}
+
+a{
+    color: black;
+}
+
+header{
+    background-image: url('./img/Rectangle\ 70.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.header_dark {
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+}
+
+.section_dark {
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    
+}
+
+
+.header_content_text{
+    color: white;
+}
+
+.header_btn{
+    background-color: rgb(249, 249, 69);
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.header_icons{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_icons i{
+    margin-top: 70px;
+}
+
+.first_title{
+    margin-top: 40px;
+}
+
+#section1{
+    height: 550px;
+    background-color: rgb(249, 243, 243);
+}
+
+.section1_content{
+    display: flex;
+    justify-content: space-evenly  ;
+}
+
+.section1_card1{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    box-shadow: 2;
+    text-align: center;
+    align-items: center;
+}
+
+.card1_img{
+    width: 220px;
+    height: 200px;
+    background-image: url('./img/Group.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35px;
+}
+
+.section1_card1 strong{
+    font-size: 30px;
+    
+}
+
+.section1_card1 p{
+    font-size: 24px;
+    
+}
+
+.section1_card2{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    box-shadow: 2;
+    text-align: center;
+}
+
+.card2_img{
+    width: 220px;
+    height: 200px;
+    background-image: url('./img/Group\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+}
+
+.section1_card2 strong{
+    font-size: 30px;
+    
+}
+
+.section1_card2 p{
+    font-size: 24px;
+    
+}
+
+.section1_card3{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    box-shadow: 2;
+    text-align: center;
+    
+}
+
+.card3_img{
+    width: 220px;
+    height: 200px;
+    background-image: url('./img/Group\ \(2\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35px;
+}
+
+.section1_card3 strong{
+    font-size: 24px;
+    
+}
+
+.section1_card3 p{
+    font-size: 24px;
+    
+}
+
+.section1_card4{
+    background-color: rgb(251, 251, 251);
+    width: 300px;
+    height: 500px;
+    box-shadow: 2;
+    text-align: center;
+    align-items: center;
+}
+
+.card4_img{
+    width: 220px;
+    height: 200px;
+    background-image: url('./img/Group\ \(3\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35px;
+}
+
+.section1_card4 strong{
+    font-size: 24px;
+    
+}
+
+.section1_card4 p{
+    font-size: 24px;
+    
+}
+
+#section2{
+    height: 850px;
+    
+}
+
+.section2_content1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section2_img1{
+    background-image: url('./img/Rectangle\ 82.jpg');
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+    
+}
+
+
+.section2_img2{
+    background-image: url('./img/Rectangle\ 79.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+}
+
+.section2_img3{
+    background-image: url('./img/Rectangle\ 70.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+
+}
+
+.section2_img4{
+    background-image: url('./img/Rectangle\ 81.jpg   ');
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+    
+}
+
+.section2_img5{
+    background-image: url('./img/Rectangle\ 82.jpg');
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+    
+}
+
+.section2_img6{
+    background-image: url('./img/Rectangle\ 83.jpg');
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+    
+}
+
+.text{
+    align-items: center;
+}
+
+.section_dark h1{
+    margin-top: 300px;
+}
+
+.section2_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn2{
+    background-color: purple;
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+}
+
+#section3{
+    height: 390px;
+    
+}
+
+.section3_content1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section3_img1{
+    background-image: url('./img/Rectangle\ 84.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+    
+}
+
+
+.section3_img2{
+    background-image: url('./img/Rectangle\ 85.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+}
+
+.section3_img3{
+    background-image: url('./img/Rectangle\ 86.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    color: white;
+    display: flex;
+
+}
+
+#section4{
+    height: 800px;
+    color: gray;
+}
+
+.section4_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4_content_card1{
+    background-color: white;
+    width: 20%;
+    height: 350px;
+}
+
+.section4_content_card1_img1{
+    background-image: url('./img/Rectangle\ 82.jpg');
+    height: 360px;
+    width: 100%;
+}
+
+.section4_content_card2{
+    background-color: white;
+    width: 20%;
+    height: 350px;
+}
+
+.section4_content_card2_img2{
+    background-image: url('./img/Rectangle\ 79.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+}
+
+.section4_content_card3{
+    background-color: white;
+    width: 20%;
+    height: 450px;
+}
+
+.section4_content_card3_img3{
+    background-image: url('./img/Rectangle\ 70.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+}
+
+.section4_content_card4{
+    background-color: white;
+    width: 20%;
+    height: 350px;
+}
+
+.section4_content_card4_img4{
+    background-image: url('./img/Rectangle\ 83.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+}
+
+.section4_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn4{
+    background-color: purple;
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+}
+
+#section5{
+    height: 250px;
+}
+
+.section5_content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5_content_img{
+background-image: url('./img/nike-3.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 150px;
+height: 150px;
+}
+
+#section6{
+    height: 400px;
+}
+
+.section6_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6_content_card1{
+    width: 25%;
+    height: 400px;
+}
+
+.section6_content_card1_img1{
+    background-image: url('./img/Rectangle\ 122.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+
+.section6_content_card2{
+    width: 25%;
+    height: 400px;
+}
+
+.section6_content_card2_img2{
+    background-image: url('./img/Rectangle\ 120.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+
+.section6_content_card3{
+    width: 25%;
+    height: 400px;
+}
+
+.section6_content_card3_img3{
+    background-image: url('./img/Rectangle\ 121.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+
+#section7{
+    height: 260px;;
+}
+
+.section7_content1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section7_content2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section7_content2 input{
+    border: 0;
+    background-color: rgb(224, 224, 227);
+    width: 200px;
+    height: 40px;
+margin-left: 40px;
+}
+
+.section7_btn{
+    color: white;
+    border: 0;
+    background-color: purple;
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+footer{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 350px;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_content_text{
+    width: 22%;
+    margin-top: 80px;
+}
+
+.footer_content_text p{
+    color: gray;
+}

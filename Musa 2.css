@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+
+}
+
+.nav_content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_btn{
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 2px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    margin-left: 20px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 1168px;
+    height: 400px;
+    background-image: url('./img/Rectangle\ 141.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box4{
+    width: 184px ;
+    height: 184px;
+    background-image: url('./img/Карточка\ Услуги\ 5.png');
+    margin-left: -30px;
+}
+.box5{
+    width: 184px ;
+    height: 184px;
+    background-image: url('./img/Карточка\ Услуги\ 6.png');
+    margin-left: 100px;
+}
+.box6{
+    width: 268px ;
+    height: 260px;
+    background-image: url('./img/Карточка\ Услуги\ 7.png');
+    margin-left: 100px;
+}
+
+.box7{
+    width: 268px ;
+    height: 260px;
+    background-image: url('./img/Карточка\ Услуги\ 8.png');
+    margin-left: 100px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box8{
+    width: 1440px;
+    height: 445px;
+    background-image: url('./img/Rectangle\ 161.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.box9{
+    width: 1130px;
+    height: 231px;
+    background-image: url('./img/Group\ 75.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box10{
+  width: 167px;
+  height: 130px;
+  background-image: url('./img/nike-3.png');
+}
+.box11{
+    width: 167px;
+    height: 130px;
+    background-image: url('./img/nike-3.png');
+  }
+.box12{
+    width: 167px;
+    height: 130px;
+    background-image: url('./img/nike-3.png');
+  }
+.box13{
+    width: 167px;
+    height: 130px;
+    background-image: url('./img/nike-3.png');
+  }
+  .box14{
+    width: 167px;
+    height: 130px;
+    background-image: url('./img/nike-3.png');
+  }
+.box15{
+    width: 167px;
+    height: 130px;
+    background-image: url('./img/nike-3.png');
+  }
+  .block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .box16{
+    width: 167px;
+    height: 130px;
+    background-image: url('./img/nike-3.png');
+  }
+  .box17{
+      width: 167px;
+      height: 130px;
+      background-image: url('./img/nike-3.png');
+    }
+  .box18{
+      width: 167px;
+      height: 130px;
+      background-image: url('./img/nike-3.png');
+    }
+  .box19{
+      width: 167px;
+      height: 130px;
+      background-image: url('./img/nike-3.png');
+    }
+    .box20{
+      width: 167px;
+      height: 130px;
+      background-image: url('./img/nike-3.png');
+    }
+  .box21{
+      width: 167px;
+      height: 130px;
+      background-image: url('./img/nike-3.png');
+    }

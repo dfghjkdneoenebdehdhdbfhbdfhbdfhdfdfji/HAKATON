@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.up{
+background-color: rgb(47, 4, 87);
+width: 100%;
+height: 35px;
+display: flex;
+justify-content: space-around;
+
+}
+.up_main_text{
+    margin-top: 6px;
+    color: orange;
+    margin-left: 100px;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+
+}
+
+.nav_content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_btn{
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 2px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    margin-left: 20px;
+}
+.nav_logo_2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.container{
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.nav_logo_3{
+    background-image: url('img./Rectangle\ 162.png');
+    width: 500px;
+    height: 500px;
+}
+.up_text{
+    color: rgb(235, 235, 235);
+    margin-top: -20px;
+    margin-left: 110px;
+}
+.nav_logo_5{
+    background-image: url('img./Rectangle\ 166\ \(1\).png');
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.up_text_2{
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.nav_logo_6{
+    background-image: url('img./Rectangle\ 167.png');
+    width: 250px;
+    height:200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.up_text_3{
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.nav_logo_7{
+    background-image: url('img./Rectangle\ 168.png');
+    width: 250px;
+    height:200px;
+    margin-top: -200px;
+    margin-left: 353px;
+}
+.up_text_4{
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+    margin-left: 353px;
+}
+.nav_logo_8{
+background-image: url('img./Rectangle\ 168.png');
+width:250px;
+height:200px ;
+margin-top: -930px;
+margin-left:660px;
+}
+.up_text_5{
+    color: rgb(255, 255, 255);
+    margin-top:-20px;
+    margin-left: 660px;
+}
+.nav_logo_9{
+    background-image: url('img./Rectangle\ 167.png');
+    width:250px;
+    height:200px;
+    margin-top: -200px;
+    margin-left:930px;
+    }
+    .up_text_6{
+        color: rgb(255, 255, 255);
+        margin-top:-20px;
+        margin-left: 930px;
+    }
+    .nav_logo_10{
+        background-image: url('img./Rectangle\ 165.png');
+        width:510px;
+        height:200px;
+        margin-top: 20px;
+        margin-left:660px;
+        }
+.up_text_7{
+    color: rgb(255, 255, 255);
+    margin-top:-20px;
+    margin-left: 670px;
+}
+.nav_logo_11{
+    background-image: url('img./Rectangle\ 169.png');
+    width:510px;
+    height:500px;
+    margin-top: 20px;
+    margin-left:660px;
+}
+.up_text_8{
+    color: rgb(255, 255, 255);
+    margin-top:-20px;
+    margin-left: 690px;
+}
+ .text_up{
+    width:1100px;
+    height: 200px;
+    background-color: darkslategray;
+    margin-left: 90px;
+    margin-top: 10px;
+ }
+ .text_up_1{
+    color: rgb(255, 255, 255);
+    margin-top:-200px;
+    margin-left: 200px;
+ }
+.text_1{
+    width: 50px;
+    height: 30px;
+}
+footer{
+    background-color: gray;
+    width:80% ;
+    height: 200px;
+    margin-left:100px ;
+    margin-top: 6px;
+}
